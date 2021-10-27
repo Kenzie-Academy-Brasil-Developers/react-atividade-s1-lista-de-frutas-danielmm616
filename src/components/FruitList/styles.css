@@ -1,0 +1,21 @@
+.tableFruits {
+  background-color: #ff7889;
+  color: #612c5c;
+
+  padding: 20px;
+  margin: 20px;
+
+  border-radius: 8px;
+  border: #d24874 solid 2px;
+
+  min-width: 200px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.tableFruits h1 {
+  font-size: 25px;
+  color: #fff;
+}

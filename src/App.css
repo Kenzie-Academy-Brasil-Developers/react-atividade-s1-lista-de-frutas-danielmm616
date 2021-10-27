@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url("https://img.elo7.com.br/product/600x380/2681E71/papel-de-parede-cozinha-cereja-adesivo-para-cozinha.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+
+  background-color: #ffb598;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #8f3666;
+}
+
+.App-header button:hover {
+  background-color: #8f3666;
+}
